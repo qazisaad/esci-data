@@ -1,5 +1,2 @@
 *.parquet filter=lfs diff=lfs merge=lfs -text
-<<<<<<< HEAD
 *.bin filter=lfs diff=lfs merge=lfs -text
-=======
->>>>>>> origin/main
