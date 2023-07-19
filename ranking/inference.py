@@ -114,7 +114,7 @@ def main():
         col_scores : scores,
     })
     df_hypothesis = df_hypothesis.sort_values(by=[col_query_id, col_scores], ascending=False)
-    df_hypothesis[[col_query_id, col_product_id]].to_csv(
+    df_hypothesis.to_csv(
         args.hypothesis_path_file,
         index=False,
         sep=',',

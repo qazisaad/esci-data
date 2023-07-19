@@ -15,8 +15,8 @@
 #   limitations under the License.
 
 LOCALES=("us")
-LOCALES+=("es")
-LOCALES+=("jp")
+# LOCALES+=("es")
+# LOCALES+=("jp")
 
 N_DEV_QUERIES_LOCALE=(400)
 N_DEV_QUERIES_LOCALE+=(200)

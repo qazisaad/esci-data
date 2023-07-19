@@ -22,8 +22,8 @@ if [ "$#" -ne 1 ]; then
 fi
 
 LOCALES=("us")
-LOCALES+=("es")
-LOCALES+=("jp")
+# LOCALES+=("es")
+# LOCALES+=("jp")
 
 DATA_SQD="../shopping_queries_dataset/"
 MODELS_TASK1_PATH="./models"

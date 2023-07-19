@@ -54,8 +54,8 @@ def main():
 
     locales = [
         "us",
-        "es",
-        "jp",
+        # "es",
+        # "jp",
     ]
 
     df_results = pd.DataFrame()
