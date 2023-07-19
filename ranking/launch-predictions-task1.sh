@@ -20,19 +20,11 @@ if [ "$#" -ne 1 ]; then
     printf "Read https://github.com/terrier-org/terrier-core for more details\n"
     exit
 fi
-<<<<<<< HEAD
 
 LOCALES=("us")
 # LOCALES+=("es")
 # LOCALES+=("jp")
 
-=======
-
-LOCALES=("us")
-LOCALES+=("es")
-LOCALES+=("jp")
-
->>>>>>> origin/main
 DATA_SQD="../shopping_queries_dataset/"
 MODELS_TASK1_PATH="./models"
 HYPOTHESIS_TASK1_PATH="./hypothesis"
@@ -59,8 +51,4 @@ python prepare_trec_eval_files.py ${DATA_SQD} \
     ${HYPOTHESIS_TASK1_PATH} \
     --output_path ${TREC_EVAL_DATA_PATH}
 
-<<<<<<< HEAD
 # $1 trec_eval "${TREC_EVAL_DATA_PATH}/test.qrels" "${TREC_EVAL_DATA_PATH}/hypothesis.results" -c -J -m 'ndcg.1=0,2=0.01,3=0.1,4=1'
-=======
-$1/terrier trec_eval "${TREC_EVAL_DATA_PATH}/test.qrels" "${TREC_EVAL_DATA_PATH}/hypothesis.results" -c -J -m 'ndcg.1=0,2=0.01,3=0.1,4=1'
->>>>>>> origin/main
