@@ -1,0 +1,199 @@
+[33mcommit 021fe2d510825ddb0389b3f4ed8ad9ee2babb729[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: qazisaad <qazisaad@live.com>
+Date:   Wed Jul 19 18:54:18 2023 +0500
+
+    partial model added
+
+[33mcommit c16a0beac9e7f6fb27ebc8e01b53b7d8d19a0d5e[m
+Author: qazisaad <qazisaad@live.com>
+Date:   Wed Jul 19 18:37:55 2023 +0500
+
+    modified prediction sh
+
+[33mcommit d0d24d6c67059e694749c0f57539e71b4032c37c[m
+Author: qazisaad <qazisaad@live.com>
+Date:   Wed Jul 19 18:06:35 2023 +0500
+
+    ms marco english model aand inference with scores
+
+[33mcommit da88432050f65379bfe3c2ab8c2e9eecb4b3bb9f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Mon Sep 5 09:54:22 2022 +0200
+
+    Update README.md
+
+[33mcommit 1337da43386feddfaa632e7fdc4e056d1d860bc6[m
+Merge: 6930306 c4df70e
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Mon Sep 5 09:52:17 2022 +0200
+
+    Merge pull request #10 from Akirato/patch-1
+    
+    Updated the class_id2esci_label variable
+
+[33mcommit c4df70eadc3768e3cc7f06ef93c6640caec06f08[m
+Author: Nurendra Choudhary <nurendra@vt.edu>
+Date:   Sun Sep 4 01:27:14 2022 -0700
+
+    Updated the class_id2esci_label variable
+    
+    The class_id2esci_label was not the same mapping as Line 45 of build_input_data_model.py
+    This was causing an error which returned a 0 macro-f1 and 0 micro-f1.
+    I have changed the class_id2esci_label to make the mapping same.
+    I tested the code locally and the performance was;
+    Task 2: Macro, micro = (0.228, 0.621)
+    Task 3: Macro, micro = ( 0.439, 0.760)
+    Please add the changes.
+
+[33mcommit 693030680b63deb4dde6c58b2111b7f836fa8ce5[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Sun Aug 7 12:43:02 2022 +0200
+
+    Update README.md
+
+[33mcommit 6810f8b47748d83cce3457d0319d6883f78fecb3[m
+Merge: 7e0e307 11fe52d
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Sun Aug 7 12:40:52 2022 +0200
+
+    Merge pull request #7 from amazon-research/update-code
+    
+    Baselines - code update
+
+[33mcommit 11fe52dca149e7dbc700e92df9b8052255149e80[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Sun Aug 7 12:30:49 2022 +0200
+
+    updated readme
+
+[33mcommit aed87d1143c9dd822d54a82a51df8fc972d89946[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Sun Aug 7 12:29:52 2022 +0200
+
+    added ndcg score
+
+[33mcommit f2fc76c184216553dcb6a23e56e79fdeb12f1799[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Sun Aug 7 12:29:14 2022 +0200
+
+    fixed
+
+[33mcommit 274ca4411c3428dc36dfaca68ae987a67ae652b3[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Sun Aug 7 12:22:57 2022 +0200
+
+    minor update
+
+[33mcommit 1ebba061d0cd0d7c5c4edbc9e509ab097b54f593[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Sun Aug 7 12:19:36 2022 +0200
+
+    updated readm
+
+[33mcommit 4144ed4e69fdd5ff467aad06d66fc6a036256f8d[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Sun Aug 7 12:17:50 2022 +0200
+
+    fixed bugs
+
+[33mcommit 0d2ee3c46b2a87af1ac69ffda2733fb476e8dda5[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Sun Aug 7 09:39:45 2022 +0200
+
+    updated README
+
+[33mcommit 0b03fae1dad1098860e04ee9730cd207c5c577da[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Fri Aug 5 18:08:24 2022 +0200
+
+    updated script task3
+
+[33mcommit 1f14fc1f4fd5e4147142c75575903893348b847b[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Fri Aug 5 18:08:00 2022 +0200
+
+    minor changes task2
+
+[33mcommit 74acf610b68834e2ed48dcbcb440dff1c4125534[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Fri Aug 5 18:03:03 2022 +0200
+
+    updated code task2
+
+[33mcommit 63b7d0e6a47e547770fa788d5e21c20ff71b7ef5[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Fri Aug 5 17:08:21 2022 +0200
+
+    updated code task1
+
+[33mcommit 3276240a6a6c6a041b435613bdac4a17a4a2dad6[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Fri Aug 5 15:52:09 2022 +0200
+
+    removed download-data.sh
+
+[33mcommit 7e0e3073f5ca36c0b5ff79e847cf99a74597645d[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Mon Aug 1 12:35:54 2022 +0200
+
+    Added Shopping queries dataset
+
+[33mcommit 4965d00a5f2f926948c7d4717cf310cb0a8f8a3f[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Thu Jul 7 10:03:42 2022 +0200
+
+    Update README.md
+
+[33mcommit 9648b4c5b995571ee4e2a608169201949b7f179e[m
+Merge: de35e3e 035d698
+Author: FRAN <franbvalero@gmail.com>
+Date:   Tue May 3 11:35:47 2022 +0200
+
+    Merge pull request #3 from jerryjung2/main
+    
+    Update README.md
+
+[33mcommit 035d6980fe1c29da3b343af96b6b4a3767919661[m
+Author: Jerry <92495283+jerryjung2@users.noreply.github.com>
+Date:   Sun May 1 19:47:48 2022 +0900
+
+    Update README.md
+
+[33mcommit de35e3e65064d1de754a52f2de90dcffb1f78520[m
+Merge: 02f244c e422fe6
+Author: FRAN <franbvalero@gmail.com>
+Date:   Mon Apr 25 09:45:08 2022 +0200
+
+    Merge pull request #1 from amazon-research/source-code
+    
+    Intial code
+
+[33mcommit e422fe6bf68a9bea505b78ec1056e9ed394eaeac[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Thu Apr 21 15:56:34 2022 +0200
+
+    Updated README.md
+
+[33mcommit 550b2b078ccfe0d0a19699b10937c7d3f4e472d5[m
+Author: Fran Valero <franbvalero@gmail.com>
+Date:   Thu Apr 21 15:46:16 2022 +0200
+
+    Added code
+
+[33mcommit bf66a01db1c6a37baccecc4247bbe0619254767a[m
+Author: Fran Valero <fvalero@amazon.es>
+Date:   Thu Apr 21 15:43:25 2022 +0200
+
+    Added requirements.txt
+
+[33mcommit b2a72f1e2a9a61c262ace64c40d125aa64dee235[m
+Author: Fran Valero <fvalero@amazon.es>
+Date:   Thu Apr 21 15:34:47 2022 +0200
+
+    Added .gitignore"
+
+[33mcommit 02f244c93c4b13a89cbd59d7397192ee5e36fb0b[m
+Author: Amazon GitHub Automation <54958958+amazon-auto@users.noreply.github.com>
+Date:   Thu Apr 21 08:53:18 2022 -0400
+
+    Initial commit
