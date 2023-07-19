@@ -54,8 +54,13 @@ def main():
 
     locales = [
         "us",
+<<<<<<< HEAD
         # "es",
         # "jp",
+=======
+        "es",
+        "jp",
+>>>>>>> origin/main
     ]
 
     df_results = pd.DataFrame()
